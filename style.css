@@ -21,7 +21,7 @@ ul {
 
 
 body {
-    font-family: CircularStd;
+    font-family: 'Roboto' sans-serif;
 }
 
 
@@ -398,6 +398,7 @@ body {
 .header-content{
     background-color: #5454D4;
 }
+
 
 
 .header-content .container {
@@ -1293,6 +1294,11 @@ body {
     .section-info{
         margin-bottom:auto;
     }
+
+    .section-content-image{
+        width: 700px;
+    }
+
 
 }
 
