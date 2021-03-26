@@ -89,6 +89,11 @@ body {
     color: #FFFFFF;
 }
 
+.nav-line{
+    display: none;
+    width: 20px;
+}
+
 
 .nav-container-text {
     font-family: CircularStd;
@@ -1018,15 +1023,20 @@ body {
     }
 
     .header-info{
-        width:400px;
+        width:450px;
         display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left:0px;
+        padding:none;
     }
 
+    
+
     .section-content-text{
-        width:450px;
+        width:350px;
+        margin-right:130px;
     }
     .header-content-info{
         width:450px;
@@ -1037,7 +1047,7 @@ body {
     }
 
     .header-content-title{
-        width:450px;
+        width:400px;
     }
 
     .main-info-item{
@@ -1071,5 +1081,108 @@ body {
     .section-info-text{
         font-size: 21px;
     }
+
+    .foooter-item-info{
+        width:350px;
+        margin-right:120px;
+    }
+
+    .footer-title-link{
+        margin-right:150px;
+    }
 }
+
+@media(max-width:520px){
+    .container{
+        width:400px;
+    }
+
+    
+    .nav-container-list{
+        display:none;
+    }
+
+    .nav-container-list2{
+        display: none;
+    }
+
+    .nav-line{
+        display: block;
+        margin-right: 45px;
+    }
+
+    .header-text{
+        text-align: justify;
+    }
+
+    .section-info{
+        width:450px;
+        margin-right:220px;
+    }
+
+    .section-sidebar-title-info{
+        width:250px;
+    }
+
+    .section-content-text{
+        width:300px;
+    }
+
+    .header-content-title{
+        width:350px;
+        font-size: 45px;
+    }
+
+    .header-content-text{
+        width:310px;
+        margin-right: 45px;
+    }
+
+    .main-text{
+        width:320px;
+        margin-left:40px;
+    }
+
+    .footer-container-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-info-text{
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+
+    .section-info{
+        width:400px;
+    }
+
+    .section .container{
+        padding:109px 0;
+    }
+
+    .header-content-info{
+        width:350px;
+    }
+
+    .header-content-text{
+        text-align: justify;
+    }
+
+    .section-content-img{
+        display: none;
+    }
+
+    .header-info{
+        width:350px;
+        margin-right: 45px;
+    }
+
+
+}
+
+
 
