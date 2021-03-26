@@ -1239,10 +1239,7 @@ body {
         padding:125px;
     }
 
-    .section .container{
-        padding:120px 0;
-    }
-
+    
     .footer .container{
         width:280px;
         display: none;
@@ -1250,6 +1247,51 @@ body {
 
     .foooter-item-info{
         width:220px;
+    }
+
+    .header-title{
+        line-height: 40px;
+    }
+
+    .header-text{
+        line-height: 40px;
+    }
+
+    .section-info-paragraph{
+        line-height: 40px;
+    }
+
+    .section-info-text{
+        line-height: 35px;
+    }
+
+    .section-info-list{
+        margin-top: 30px;
+    }
+
+    .section-sidebar-info{
+        line-height: 55px;
+        
+    }
+
+    .section-content-info, .section-content-text {
+        line-height:35px;
+    }
+
+    .section-info-text {
+        width:280px;
+    }
+
+    .section .container{
+        padding:none;
+    }
+
+    .header-content-title{
+        line-height: 45px;
+    }
+
+    .section-info{
+        margin-bottom:auto;
     }
 
 }
