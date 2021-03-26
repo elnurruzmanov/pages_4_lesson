@@ -1184,5 +1184,75 @@ body {
 
 }
 
+@media(max-width:420px){
+    .container{
+        width:300px;
+    }
+
+    .header-info{
+        width:280px;
+    }
+
+    .header-list-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-list-container-link-link{
+        margin-top:20px;
+    }
+
+    .section-info{
+        width:300px;
+        margin-bottom: 320px;
+    }
+
+    .section-content-text{
+        width:250px;
+        margin-right:60px;
+    }
+
+    .header-content-info{
+        width:250px;
+    }
+
+    .main-title-img{
+        display: none;
+    }
+
+    .main-text{
+        width:250px;
+    }
+
+    .header-content-title{
+        width:250px;
+    }
+
+    .header-content-text{
+        width:250px;
+    }
+
+    .footer-item{
+        width:240px;
+        padding:125px;
+    }
+
+    .section .container{
+        padding:120px 0;
+    }
+
+    .footer .container{
+        width:280px;
+        display: none;
+    }
+
+    .foooter-item-info{
+        width:220px;
+    }
+
+}
+
 
 
